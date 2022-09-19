@@ -21,7 +21,6 @@ body {
 .container_main {
     display: flex;
     justify-content: center;
-    /* padding: 6.25rem 0; */
     align-items: center;
     height: 100vh;
 }
@@ -39,17 +38,15 @@ body {
 img {
     display: block;
     width: fit-content;
-    /* display: block; */
     width: 100%;
     border-radius: 10px;
 }
 
 .component_title {
-    font-size: 1.4375rem;
+    font-size: 1.375rem;
     padding: 0.625rem;
     padding-top: 1.4375rem;
     padding-bottom: 0.9375rem;
-    /* text-align: center; */
     color: var(--dark_blue);
 }
 
@@ -82,5 +79,4 @@ footer {
     .container_main {
       padding: 5.3125rem 1.75rem;
     }
-
 }
