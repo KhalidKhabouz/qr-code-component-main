@@ -21,7 +21,9 @@ body {
 .container_main {
     display: flex;
     justify-content: center;
-    padding: 6.25rem 0;
+    /* padding: 6.25rem 0; */
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
