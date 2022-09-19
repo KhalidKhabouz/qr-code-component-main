@@ -20,18 +20,16 @@ body {
 
 .container_main {
     display: flex;
-    /* border: 1px solid yellow; */
     justify-content: center;
     padding: 100px 0;
 }
 
 .card {
-    width: 320px;
-    padding: 16px;
-    padding-bottom: 40px;
-    /* border: 1px solid red; */
+    width: 20rem;
+    padding: 1rem;
+    padding-bottom: 2.5rem;
     background-color: var(--white);
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
     box-shadow: rgba(50, 50, 50, 0.1) 0px 40px 20px -20px;
 }
@@ -45,25 +43,42 @@ img {
 }
 
 .component_title {
-    font-size: 23px;
-    padding: 10px;
-    padding-top: 23px;
-    padding-bottom: 15px;
+    font-size: 1.4375rem;
+    padding: 0.625rem;
+    padding-top: 1.4375rem;
+    padding-bottom: 0.9375rem;
     /* text-align: center; */
     color: var(--dark_blue);
 }
 
 .component_text {
-    font-size: 15px;
-    padding: 0 20px;
+    font-size: 0.9375rem;
+    padding: 0 1.25rem;
     font-weight: 400;
     color: var(--grayish_blue);
 }
 
+footer {
+    position: relative;
+}
 
-@media only screen and (max-width: 375px) {
+.attribution {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 23.4375rem) {
     .container_main {
-      padding: 85px 28px;
+      padding: 5.3125rem 1.75rem;
     }
 
 }
